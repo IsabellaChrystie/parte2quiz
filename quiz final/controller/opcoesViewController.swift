@@ -42,14 +42,14 @@ class opcoesViewController: UIViewController {
     func checkConfirme (){
         if confirme == 0 {
             manager.minimo = 0
-            manager.maximo = 2
+            manager.maximo = 22
             
         }else if confirme == 1{
-            manager.minimo = 3
-            manager.maximo = 5
+            manager.minimo = 23
+            manager.maximo = 36
         }else {
             manager.minimo = 0
-            manager.maximo = 5
+            manager.maximo = 36
         }
     }
     
